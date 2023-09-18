@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #fffaf7;
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fafafa;
+    border-radius: 1em;
+    width: 450px;
+    min-height: 450px; 
+    padding: 20px;
+    box-shadow: 0 0.188em 1.550em #918e8e62;
+
+}
